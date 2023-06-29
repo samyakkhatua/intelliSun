@@ -20,7 +20,7 @@ function predictCurrent() {
       document.getElementById('Orientation').innerHTML = 'Predicted Panel Orientation: ' + data[0].Panel_Orientation;
       document.getElementById('Position').innerHTML = 'Predicted Panel Position: ' + data[0].Panel_Position;
     
-      console.log(data[0].Current_Generated);
+      // console.log(data[0].Current_Generated);
     })
     .catch((error) => {
       console.error("Error:", error);
