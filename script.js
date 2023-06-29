@@ -3,7 +3,7 @@ function predictCurrent() {
   const sunlightIntensity = document.getElementById("sunlight_intensity").value;
   const humidity = document.getElementById("humidity").value;
 
-  fetch("http://127.0.0.1:8000/predict", {
+  fetch("http://127.0.0.1:8080/predict", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
