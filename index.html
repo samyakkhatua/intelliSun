@@ -29,7 +29,8 @@
 	<div class="container">
 		<h1>IntelliSun</h1>
 		<h3>Solar Panel Prediction App</h3>
-
+		
+		<!-- Input section -->
 		<section>
 			<form>
 				<label for="temperature">Temperature (in °C):</label>
@@ -45,21 +46,28 @@
 			</form>
 		</section>
 		
-
+		<!-- Output -->
 		<section class="result">
 			<table>
 				<tr>
-					<th>Current</th>
-					<th>Orientation</th>
-					<th>Position</th>
+					<th>Measurement</th>
+					<th>Value</th>
 				</tr>
 				<tr>
+					<td>Current generated</td>
 					<td id="current"></td>
+				</tr>
+				<tr>
+					<td>Panel Orientation</td>
 					<td id="Orientation"></td>
+				</tr>
+				<tr>
+					<td>Panel Position</td>
 					<td id="Position"></td>
 				</tr>
 			</table>
 		</section>
+		
 	</div>
 
 	<script src="script.js"></script>

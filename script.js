@@ -16,9 +16,9 @@ function predictCurrent() {
   })
     .then((response) => response.json())
     .then((data) => {
-      document.getElementById('current').innerHTML = 'Predicted current generated: ' + data[0].Current_Generated+' A';
-      document.getElementById('Orientation').innerHTML = 'Predicted Panel Orientation: ' + data[0].Panel_Orientation;
-      document.getElementById('Position').innerHTML = 'Predicted Panel Position: ' + data[0].Panel_Position;
+      document.getElementById('current').innerHTML = data[0].Current_Generated+' A';
+      document.getElementById('Orientation').innerHTML = data[0].Panel_Orientation;
+      document.getElementById('Position').innerHTML = data[0].Panel_Position;
     
       // console.log(data[0].Current_Generated);
     })
