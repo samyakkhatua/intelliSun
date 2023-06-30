@@ -3,7 +3,7 @@ function predictCurrent() {
   const sunlightIntensity = document.getElementById("sunlight_intensity").value;
   const humidity = document.getElementById("humidity").value;
 
-  fetch("https://f509-2401-4900-3da0-168-205e-f475-55fb-5b2d.ngrok-free.app/predict", {
+  fetch("https://7ed5-2401-4900-47f2-e926-90dd-cb89-ee79-98be.ngrok-free.app/predict", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
