@@ -19,6 +19,7 @@ form {
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 50px;
+	width: max-content;
 }
 
 label {
@@ -60,7 +61,6 @@ body {
 
 .container {
 	background-color: #fff;
-	padding: 2rem;
 	border-radius: 4px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -153,4 +153,27 @@ tr:nth-child(even) {
 
 #Position {
 	color: #2196f3;
+}
+
+
+/* ============== */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.result {
+	text-align: center;
+	margin-top: 1rem;
 }
